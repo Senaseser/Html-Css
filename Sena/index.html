@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Phyton,Java,JavaScript">
+    <meta name="description" content="Sena Eser | Programlama Eğitimleri">
+    <title>Sena Eser | Programlama Eğitimleri</title>
+    <link rel="stylesheet" href="/CSS/css/Sena/global.css">
+    <link rel="stylesheet" href="/CSS/css/Sena/main.css">
+    <link rel="stylesheet" media="(max-width:768px)" href="/CSS/css/Sena/tablet.css">
+    <link rel="stylesheet" media="(max-width:500px)" href="/CSS/css/Sena/mobile.css">
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!-- <script src="script.js"></script> -->
+
+
+</head>
+<body>
+    <header class="bg-dark-blue">
+        <div class="container">
+            <nav id="navbar">
+                <h1 class="heading-small">Sena Eser</h1>
+    
+                <ul>
+                    <li><button onclick="showDiv('home')">Ana Sayfa</button></li>
+                    <li><button onclick="showDiv('training')">Eğitimler</button></li>
+                    <li><button onclick="showDiv('courses')">Kurslar</button></li>
+                    <li><button onclick="showDiv('contact')">İletişim</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<main>
+    <div id="home">
+        <img src="/images.png/sena2.jpeg" alt="Sena Eser">
+        <div class="name">
+            <h2 class="heading-big">Sena Eser</h2>
+            <p>Computer Engineer | Student of Yıldız Technical University</p>
+        </div>
+        <a class="btn btn-primary" href="#courses">Kurslara Git</a>
+    </div>
+
+    <div id="training" class="bg-dark-blue">
+        <h3 class="text-center heading-medium">Eğitimler</h3>
+        <div class="items">
+            <article class="item">
+                <div class="başlık">
+                    <i class="fa fa-pencil"></i>
+                    <h3>JAVA</h3>
+                </div>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, vero!</P>
+            </article>
+            <article class="item">
+                <div class="başlık">
+                    <i class="fa fa-pencil"></i>
+                    <h3>C</h3>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, qui!</p>
+            </article>
+            <article class="item">
+                <div class="başlık">
+                    <i class="fa fa-pencil"></i>
+                    <h3>HTML/CSS</h3>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, inventore.</p>
+            </article>
+
+        </div>
+    </div>
+    <div id="courses">
+        <h3 class="text-center heading-medium">Kurslar</h3>
+        <div class="container">
+            <div class="courses">
+                <div class="course">
+                    <div class="course-image">
+                        <img src="/images.png/phyton.jpg" alt="Phyton kursu">
+                        <span>%90 İndirim</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">Phyton</div>  
+                        <div class="description">Komple Phyton Geliştirici Kursu | Sıfırdan Phyton Öğrenin </div>
+                        <div class="instructor">Sena Eser,Yazılım Öğretmeni</div>
+                        <div class="rating">4.6 | (7000 Oylama)</div>
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="course-image">
+                        <img src="/images.png/java.jpg" alt="Phyton kursu">
+                        <span>%60 İndirim</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">Java</div>  
+                        <div class="description">Komple Java Geliştirici Kursu | Sıfırdan Java Öğrenin </div>
+                        <div class="instructor">Sena Eser,Yazılım Öğretmeni</div>
+                        <div class="rating">4.8 | (8000 Oylama)</div>
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="course-image">
+                        <img src="/images.png/C.jpg" alt="Phyton kursu">
+                        <span>%80 İndirim</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">C</div>  
+                        <div class="description">Komple C Geliştirici Kursu | Sıfırdan C Öğrenin </div>
+                        <div class="instructor">Sena Eser,Yazılım Öğretmeni</div>
+                        <div class="rating">4.9 | (6000 Oylama)</div>
+                    </div>
+                </div>
+                    
+            </div>
+         </div>
+    </div>
+    <div id="contact" class="bg-dark-blue">
+        <div class="contact-form">
+            <form>
+            <h3 class="text-center heading-medium">Bana Ulaşın</h3>
+            <div class="form-group">
+                <label for="name">İsim</label>
+                <input type="text" class="form-control" name="name" id="name" placeholder="İsim">
+                <label for="email">E-mail</label>
+                <input type="text" class="form-control" name="email" id="email" placeholder="E-mail">
+                <label for="message">Mesaj</label>
+                <textarea name="message" id="message" rows="5" class="form-control" placeholder="Mesajınız..."> </textarea>
+            </div>
+            <button type="submit" class="btn btn-block">Gönder</button>
+        </form>
+
+        <ul>
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+        </div>
+    </div> 
+</main> 
+<script type="text/javascript">
+    function showDiv(id) {
+      const ref = document.getElementById(id);
+      console.log(ref);
+      const top = ref.offsetTop - 78;
+      console.log(top);
+      window.scrollTo({ top: top, behavior: "smooth" });
+    }
+    </script>
+</body>
+</html>

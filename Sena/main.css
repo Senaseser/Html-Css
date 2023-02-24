@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+}
+html{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#navbar{
+    color:#fff;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 0.75;
+    height:70px;
+}
+ul{
+    list-style-type: none;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul li button{
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}
+
+ul li button:hover{
+    background:#336ea2;
+    border-radius: 5px;
+}
+/* Home */
+#home{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+    padding-top:5rem;
+    border-bottom: 1px solid grey;
+}
+img{
+    max-width: 20%;
+    height: auto;
+    border-radius: 100%;
+}
+.name{
+    text-align: center;
+}
+#home .name h2{
+    margin-bottom: 0.75rem;
+}
+.name p{
+    opacity: 0.9;
+    font-style: italic;
+}
+.items{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+}
+#training{
+    color:#fff;
+}
+.item{
+    /* border:1px solid #336ea2; */
+    border-radius: 5px;
+    margin:10px;
+    text-align: center;
+}
+.başlık{
+    margin-top: 5px;
+    display:flex;
+    justify-content: center;
+}
+.item:hover{
+    color:blueviolet;
+    opacity:0.9;
+}
+#courses h3{
+    font-weight: bolder;
+}
+#courses{
+    padding:1rem;
+    color:#333;
+}
+.courses {
+    display:flex;
+    flex-direction: column;
+    padding:1rem;
+
+}
+.courses .course{
+    display:flex;
+    padding:1rem;
+    margin-bottom: 1rem;
+    
+
+}
+.courses .course .course-image{
+    margin-right: 1rem;
+    position:relative;
+}
+.courses .course .course-info{
+    width: 600px;
+}
+.courses .course .course-image{
+    width: 600px;
+}
+.courses .course .course-image img{
+    width: 100vh;
+}
+.courses .course .course-image span{
+    background:red;
+    padding:0.25rem;
+    border-radius: 5px;
+    color:#fff;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.main{
+    margin-top:90px;
+}
+.contact-form .form-group{
+    display:flex;
+    flex-direction: column;
+}
+#contact{
+    color:#fff;
+    padding:1rem;
+}
